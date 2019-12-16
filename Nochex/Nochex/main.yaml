@@ -1,0 +1,11 @@
+version: 5.4.0.0
+type: payment
+authorName: 'Nochex'
+moduleName: 'Nochex'
+description: 'Accept Credit / Debit Card Payments'
+minorRequiredCoreVersion: 0
+dependsOn: {  }
+incompatibleWith: {  }
+skins: {  }
+showSettingsForm: true
+canDisable: true
