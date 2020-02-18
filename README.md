@@ -8,6 +8,14 @@ To Install and Setup the Nochex module, please follow our integration guide <a h
 
 ## Changelog
 
-= 1 =
+= 5.4.0.1 =
 
-* First Release
+Fixes (3)
+
+# 2020-02-18 - [Bug] Space and missing colon for loginMode causing an error on installation
+# 2020-02-18 - [update] Remove Main.php file not used
+# 2020-02-18 - [update] Remove Views folder and contents file not used
+
+= 5.4.0.0 =
+
+# * First Release
