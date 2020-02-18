@@ -18,7 +18,7 @@ XLite\Model\Payment\Method:
         altAdminDescription: 'Accept Credit / Debit Card payments on your site.'
     settings:
       - name: merchantID
-	  - name loginMode
+      - name: loginMode
       - name: hide
       - name: prodColl
       
