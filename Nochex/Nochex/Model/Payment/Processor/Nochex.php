@@ -106,7 +106,7 @@ class Nochex extends \XLite\Model\Payment\Base\WebBased
 		// Get the POST information from Nochex server
 		$postvars = http_build_query($_POST);
 		// Set parameters for the email
-		$to = "jamesrlugton@hotmail.co.uk";
+		$to = "example@youremail.com";
 		
 		if ($_POST["optional_1"] == "Callback") {
 		
@@ -128,7 +128,7 @@ class Nochex extends \XLite\Model\Payment\Base\WebBased
 		}
 		
 		//If statement
-		if ($response=="AUTHORISED") {  // searches response to see if AUTHORISED is present if it isn’t a failure message is displayed
+		if ($response=="AUTHORISED") {  // searches response to see if AUTHORISED is present if it isnâ€™t a failure message is displayed
 			$msg = "Callback was AUTHORISED."; 
 		} else { 
 			$msg = "Callback was not AUTHORISED.";  // displays debug message
@@ -152,7 +152,7 @@ class Nochex extends \XLite\Model\Payment\Base\WebBased
 		$response = curl_exec($ch); // Post back
 		curl_close($ch);
 		
-		if ($response=="AUTHORISED") {  // searches response to see if AUTHORISED is present if it isn’t a failure message is displayed
+		if ($response=="AUTHORISED") {  // searches response to see if AUTHORISED is present if it isnâ€™t a failure message is displayed
 			$msg = "APC was AUTHORISED.";
 		} else { 
 			$msg = "APC was not AUTHORISED.";
