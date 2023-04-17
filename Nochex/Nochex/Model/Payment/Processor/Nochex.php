@@ -138,7 +138,7 @@ class Nochex extends \XLite\Model\Payment\Base\WebBased
 		//mail($to, 'APC', $msg, $header);
        } else {
 		
-		$url = "https://www.nochex.com/apcnet/apc.aspx";
+		$url = "https://secure.nochex.com/apc/apc.aspx";
 		// Curl code to post variables back
 		$ch = curl_init(); // Initialise the curl tranfer
 		curl_setopt($ch, CURLOPT_URL, $url);
