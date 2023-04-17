@@ -8,6 +8,10 @@ To Install and Setup the Nochex module, please follow our integration guide <a h
 
 ## Changelog
 
+= 5.4.0.2 =
+
+* 2023-04-17 - Small change to APC page
+
 = 5.4.0.1 =
 
 Fixes (3)
